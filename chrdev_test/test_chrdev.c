@@ -61,7 +61,7 @@ static int __init chrdev_init(void)
 		return err;
 	}
 
-	device_create(class, NULL, dev_id, NULL, "page_pin");
+	device_create(class, NULL, dev_id, NULL, "mzk");
 
 	return 0;
 }
